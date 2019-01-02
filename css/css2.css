@@ -951,16 +951,17 @@ font-size: 18px;
 	width: 40px;
 	text-align: center;
 	line-height: 30px;
-	color: #ccc;
+	color: #000;
 	background-color: #fff;
 	border: 1px solid #bbb;
-	margin-right: 2px;
+	margin-right: 5px;
 }
 #fjform{
 	
-	width: 365px;
+	width: 245px;
 	margin: 0px auto;
 	margin-top: 50px;
+	
 }
 .fjte{
 	height: 30px;
@@ -1272,12 +1273,13 @@ height: 130px;
 }
 .timgbox{
 	margin-left: 15px;
+	margin-bottom: 12px;
 }
 .timgms{
 
 	padding:5px 15px 15px 10px;
 	color: #333;
-	font-size: 11px;
+	font-size: 10px;
 }
 #zysznr{
 	width: 1000px;
@@ -1356,6 +1358,7 @@ height: 130px;
 }
 #xxgkon{
 	margin-left: 20px;
+	color: #333;
 }
 #xxgkyl{
 	width: 770px;
@@ -1370,6 +1373,7 @@ height: 130px;
 	width: 560px;
 	margin-top: 14px;
 	padding-left: 20px;
+	color: #333;
 	
 }
 #xxgktp{
@@ -1388,8 +1392,10 @@ height: 130px;
 	height: 130px;
 }
 .xxgkimgms{
+	padding-top: 6px;
 	text-align: center;
-	
+	font-size: 11px;
+	color: #444;
 }
 .xxgktpbox{
 	margin-top: 15px;
@@ -1418,14 +1424,16 @@ height: 130px;
 	margin-bottom: 20px;
 	margin-top: 20px;
 	padding-left: 0px!important;
+	/*color: #1267BB;*/
 }
 #xxgkzl p{
 	text-indent: 2em;
-	font-size: 12px;
+	font-size: 11px;
 	line-height: 18px;
 	margin-top: 10px;
 	padding: 0px 10px;
 	padding-right: 20px;
+	color: #333;
 }
 #lwtp1{
 	width: 186px;
@@ -1610,4 +1618,90 @@ height: 130px;
 }
 #tsright{
 	margin-left: 20px;
+}
+#zsjypic{
+	width: 1000px;
+	margin: 0px auto;
+	overflow: hidden;
+}
+.zspicz{
+	float: left;
+	width: 182px;
+	height: 158px;
+	margin-left: 22px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	
+	border-radius: 5px;
+	
+}
+.zspicz:hover{
+	box-shadow: 2px 2px 8px #333;
+
+}
+.zspick{
+	float: left;
+	width: 332px;
+	height: 160px;
+	
+	margin-top: 25px;
+	border-radius: 5px;
+
+}
+.zspick:hover{
+	box-shadow: 2px 2px 8px #333;
+}
+.zspicz img{
+	width: 180px;
+	height: 155px;
+}
+.zspick img{
+	width: 330px;
+	height: 158px;
+}
+#xmt{
+	width: 1000px;
+	margin: 0px auto;
+	overflow: hidden;
+}
+.xmtnr{
+	float: left;
+	width: 48%;
+	background-repeat: no-repeat;
+	background-size: 450px 240px;
+	height: 250px;
+	
+	margin-bottom: 30px;
+}
+#xmtnrz{
+	background-image: url("../images/tjone.png");
+}
+#xmtnry{
+	background-image: url("../images/tjtwo.png");
+}
+#xmtbt{
+	text-align: center;
+	font-size: 18px;
+	font-family: "黑体";
+	color: #1267BB;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+.xmtwz{
+	width: 180px;
+	height: 110px;
+	color: #333;
+	
+	margin-left: 250px;
+	margin-top: 50px;
+
+}
+.xmtone{
+	font-size: 12px;
+	line-height: 23px;
+	margin-bottom: 15px;
+}
+.xmtwo{
+	font-size: 10px;
+	line-height: 20px;
 }
